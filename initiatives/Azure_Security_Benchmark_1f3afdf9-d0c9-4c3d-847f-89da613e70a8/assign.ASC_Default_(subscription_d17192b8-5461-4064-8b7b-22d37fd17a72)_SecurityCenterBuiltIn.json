@@ -1,0 +1,63 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "ASC Default (subscription: d17192b8-5461-4064-8b7b-22d37fd17a72)",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policySetDefinitions/1f3afdf9-d0c9-4c3d-847f-89da613e70a8",
+  "scope": "/subscriptions/d17192b8-5461-4064-8b7b-22d37fd17a72",
+  "notScopes": [],
+  "parameters": {
+   "certificatesValidityPeriodMonitoringEffect": {
+    "value": "audit"
+   },
+   "secretsExpirationSetEffect": {
+    "value": "Audit"
+   },
+   "keysExpirationSetEffect": {
+    "value": "Audit"
+   },
+   "networkSecurityGroupsOnSubnetsMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "adaptiveApplicationControlsMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "diagnosticsLogsInEventHubMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "disableUnrestrictedNetworkToStorageAccountMonitoringEffect": {
+    "value": "Audit"
+   },
+   "adaptiveNetworkHardeningsMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "containerRegistriesShouldBeEncryptedWithACustomerManagedKeyMonitoringEffect": {
+    "value": "Audit"
+   },
+   "containerRegistriesShouldNotAllowUnrestrictedNetworkAccessMonitoringEffect": {
+    "value": "Audit"
+   }
+  },
+  "description": "This is the default set of policies monitored by Azure Security Center. It was automatically assigned as part of onboarding to Security Center. The default assignment contains only audit policies. For more information please visit https://aka.ms/ascpolicies",
+  "metadata": {
+   "assignedBy": "Security Center",
+   "parameterScopes": {},
+   "createdBy": "2041e86b-a66f-449a-82ff-f78ed2638c31",
+   "createdOn": "2020-10-14T06:16:27.7524581Z",
+   "updatedBy": "e6010f4d-db75-4be8-bf59-e0d4e0de0dfb",
+   "updatedOn": "2021-01-29T10:53:48.2141995Z"
+  },
+  "enforcementMode": "Default"
+ },
+ "identity": {
+  "principalId": "225cb6e3-ee2b-468d-aa44-ecd95b548489",
+  "tenantId": "0515815f-e269-4ce5-ad81-6ccae46016eb",
+  "type": "SystemAssigned"
+ },
+ "id": "/subscriptions/d17192b8-5461-4064-8b7b-22d37fd17a72/providers/Microsoft.Authorization/policyAssignments/SecurityCenterBuiltIn",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "SecurityCenterBuiltIn",
+ "location": "southeastasia"
+}
